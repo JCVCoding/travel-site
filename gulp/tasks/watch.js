@@ -20,6 +20,10 @@ gulp.task("watch", function(){
         gulp.start("cssInject");
     });
 
+    watch("./app/assets/styles/**/*.postcss", function(){
+        gulp.start("cssInject");
+    });
+
 });
 
 gulp.task("cssInject", ["styles"],function(){
