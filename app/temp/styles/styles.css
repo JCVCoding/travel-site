@@ -524,7 +524,8 @@ a {
         font-weight: 100;
         text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
         max-width: 30rem;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 @media (min-width: 530px){
@@ -1097,3 +1098,8 @@ a {
             margin-right: 1.4rem
     }
     }
+
+.site-header {
+    position: absolute;
+    z-index: 2;
+}
