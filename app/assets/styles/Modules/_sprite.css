@@ -1,7 +1,11 @@
 /* Do not edit modules/_sprite directly as it is generated automatically by Gulp */
 
         .icon {
-            background-image: url("/assets/images/sprites/sprite-1c1ce710.svg");
+            background-image: url("../../assets/images/sprites/sprite-1c1ce710.svg");
+        }
+
+        .no-svg .icon {
+            background-image: url("../../assets/images/sprites/");
         }
 
     .icon--clear-view-escapes {
